@@ -1,15 +1,27 @@
 {
-  "name": "generator-phaseres6",
+  "name": "generator-phaser-es6",
   "version": "0.1.0",
-  "description": "",
+  "description": "A generator for Phaser.js games with ES6 support.",
   "files": [
     "generators/app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "phaser",
+    "phaser gulp",
+    "phaser babelify",
+    "phaser browserify"
   ],
+
+  "homepage": "https://github.com/jamesflorentino/generator-phaser-es6",
+  "bugs": "https://github.com/jamesflorentino/generator-phaser-es6/issues",
+
   "author": "James O. Florentino <jamesflorentino@gmail.com> (http://jamesflorentino.com/)",
   "license": "MIT",
+  "engines": {
+    "node": ">=5.0 <6",
+    "npm": ">=3.3 <4"
+  },
   "dependencies": {
     "yeoman-generator": "0.23.3"
   },
