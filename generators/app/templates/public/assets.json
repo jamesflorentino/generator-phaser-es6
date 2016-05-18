@@ -1,0 +1,8 @@
+{
+  "version": "0.1.0",
+  "images": [
+    ["studio_logo", "/img/studio_logo.png"],
+    ["mainmenu_start_btn", "/img/mainmenu_start_btn.png"],
+    ["game_title","/img/game_title.png"]
+  ]
+}
