@@ -13,6 +13,7 @@
     "phaser browserify"
   ],
 
+  "repository": "https://github.com/jamesflorentino/generator-phaser-es6",
   "homepage": "https://github.com/jamesflorentino/generator-phaser-es6",
   "bugs": "https://github.com/jamesflorentino/generator-phaser-es6/issues",
 
