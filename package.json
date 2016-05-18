@@ -1,6 +1,6 @@
 {
   "name": "generator-phaser-es6",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A generator for Phaser.js games with ES6 support.",
   "files": [
     "generators/app"
