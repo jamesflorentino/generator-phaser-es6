@@ -1,5 +1,4 @@
 /**
- * @author James Florentino
  * Intro animation for the game. Show the studio name, sponsors etc.
  * @class Intro
  * @extends Phaser.State

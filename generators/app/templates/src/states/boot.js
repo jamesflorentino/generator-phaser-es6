@@ -1,7 +1,5 @@
 /**
- * @author James Florentino
- *
- t* This is where the initial game setting is set. Use the `assets-config` path
+ * This is where the initial game setting is set. Use the `assets-config` path
  * to define the assets
  * @class Boot
  * @extends Phaser.State
