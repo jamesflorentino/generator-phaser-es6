@@ -2,6 +2,8 @@ var generators = require('yeoman-generator');
 
 module.exports = generators.Base.extend({
   index() {
+    this.copy('.jshintrc')
+    this.copy('.editorconfig')
     this.copy('gitignore', '.gitignore')
     this.copy('gulpfile.js')
     this.copy('package.json')
