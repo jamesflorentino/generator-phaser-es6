@@ -1,6 +1,7 @@
 {
   "predef": {
-    "Phaser": true
+    "Phaser": true,
+    "window": true
   },
   "asi": true,
   "node": true,

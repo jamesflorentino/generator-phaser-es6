@@ -1,7 +1,0 @@
-{
-  "options": {
-    "themedir" : "./yuidoc-themes/yuidoc-bootstrap-theme",
-    "helpers" : [ "./yuidoc-themes/yuidoc-bootstrap-theme/helpers/helpers.js" ],
-    "outdir": "./docs"
-  }
-}

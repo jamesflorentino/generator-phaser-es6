@@ -6,12 +6,7 @@ var buffer = require('vinyl-buffer')
 var browserify = require('browserify')
 var watchify = require('watchify')
 var babel = require('babelify')
-var child_exec = require('child_process').exec
 
-
-function docs() {
-  child_exec('yuidoc ./src')
-}
 
 function compile(watch) {
   var bundler = watchify(
@@ -35,7 +30,6 @@ function compile(watch) {
   if (watch) {
     bundler.on('update', function() {
       console.log('-> bundling...')
-      docs()
       rebundle()
       connect.reload()
     })
